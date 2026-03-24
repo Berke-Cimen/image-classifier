@@ -331,9 +331,6 @@ MIT License
 ---
 
 **👨‍💻 Yapımcı:** Berke Çimen
-
-**📧 İletişim:** berke_cimen@hotmail.com
-
 **🐙 GitHub:** github.com/Berke-Cimen
 
 ---
