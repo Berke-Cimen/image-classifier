@@ -1,0 +1,12 @@
+model:
+  name: efficientnet_b3
+  pretrained: true
+  num_classes: 10
+  drop_rate: 0.3
+  drop_path_rate: 0.2
+
+image:
+  size: 300
+  channels: 3
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]

@@ -1,0 +1,41 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="image-classifier",
+    version="1.0.0",
+    description="Production-ready image classification system",
+    author="Your Name",
+    author_email="your.email@example.com",
+    packages=find_packages(where="."),
+    package_dir={"": "."},
+    python_requires=">=3.11",
+    install_requires=[
+        "torch>=2.4.0",
+        "torchvision>=0.19.0",
+        "timm>=1.0.0",
+        "albumentations>=1.4.0",
+        "fastapi>=0.115.0",
+        "uvicorn[standard]>=0.32.0",
+        "pydantic>=2.0.0",
+        "python-multipart>=0.0.12",
+        "pillow>=10.0.0",
+        "numpy>=1.24.0",
+        "scikit-learn>=1.3.0",
+        "matplotlib>=3.8.0",
+        "seaborn>=0.13.0",
+        "pyyaml>=6.0.0",
+        "tqdm>=4.66.0",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=8.0.0",
+            "pytest-cov>=4.1.0",
+            "pytest-asyncio>=0.23.0",
+            "httpx>=0.27.0",
+            "black>=24.0.0",
+            "isort>=5.13.0",
+            "flake8>=7.0.0",
+            "mypy>=1.8.0",
+        ],
+    },
+)
