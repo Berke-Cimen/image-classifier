@@ -64,7 +64,7 @@ Bu proje, **görüntü sınıflandırma** için tasarlanmış komple bir makine 
 |---------|----------|
 | ⚙️ Tam Eğitim Döngüsü | Forward, backward, optimizasyon |
 | 📉 LR Schedulers | Cosine, Linear, Step decay |
-| 🛑 Early Stopping | Overfitting onlemek için |
+| 🛑 Early Stopping | Overfitting'i önlemek için |
 | 💾 Checkpointing | En iyi modeli otomatik kaydetme |
 | 🎨 70+ Veri Artırma | Albumentations ile augmentasyon |
 
@@ -226,13 +226,13 @@ image-classifier/
 
 | Model | Parametre | Hız | Doğruluk |
 |-------|-----------|-----|----------|
-| EfficientNet-B0 | 5.3M | hizli | iyi |
-| EfficientNet-B3 | 12M | orta | cok iyi |
-| EfficientNet-B7 | 66M | yavas | en iyi |
-| ResNet-50 | 25.6M | orta | iyi |
-| MobileNet-V3 | 5.4M | cok hizli | orta |
-| ViT-Small | 22M | orta | cok iyi |
-| ConvNeXt-S | 50M | orta | cok iyi |
+| EfficientNet-B0 | 5.3M | hızlı | iyi
+| EfficientNet-B3 | 12M | orta | çok iyi
+| EfficientNet-B7 | 66M | yavaş | en iyi
+| ResNet-50 | 25.6M | orta | iyi
+| MobileNet-V3 | 5.4M | çok hızlı | orta |
+| ViT-Small | 22M | orta | çok iyi
+| ConvNeXt-S | 50M | orta | çok iyi
 
 ### EfficientNet Ailesi
 
@@ -320,7 +320,7 @@ data_dir/
 
 ### GPU olmadan eğitim yapabilir miyim?
 
-Evet! Model otomatik olarak CPUya gecer, ancak cok yavas olur.
+Evet! Model otomatik olarak CPU'ya geçer, ancak çok yavaş olur.
 
 ---
 
